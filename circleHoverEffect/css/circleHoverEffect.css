@@ -24,18 +24,7 @@
 					margin: 20px;
 				}
 								
-				.ch-item {
-					width: 100%;
-					height: 100%;
-					border-radius: 50%;
-					position: relative;
-					cursor: default;				
-					-webkit-transition: all 0.4s ease-in-out;
-					-moz-transition: all 0.4s ease-in-out;
-					-o-transition: all 0.4s ease-in-out;
-					-ms-transition: all 0.4s ease-in-out;
-					transition: all 0.4s ease-in-out;
-				}
+
 
 				.ch-img-1 { 
 					background-image: url(images/1.jpg);
