@@ -93,7 +93,7 @@
 
 .ch-info h3 {
 	color: #fff;
-	text-transform: uppercase;
+	
 	letter-spacing: 2px;
 	font-size: 14px;
 	margin: 0 15px;
@@ -120,7 +120,7 @@
 	color: rgba(255,255,255,0.7);
 	font-style: normal;
 	font-weight: 700;
-	text-transform: uppercase;
+	
 	font-size: 9px;
 	letter-spacing: 1px;
 	padding-top: 4px;
