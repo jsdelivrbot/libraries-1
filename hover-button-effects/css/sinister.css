@@ -3023,7 +3023,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-	opacity: 1;
+	opacity: 1; 
 	transform-origin: center center 0;
 }
 
