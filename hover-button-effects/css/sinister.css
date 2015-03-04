@@ -2844,6 +2844,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	 transform-origin: center center 0;
 }
 
 .ContentWrapperHe:hover .ContentHe {
@@ -2924,6 +2925,7 @@ Content Transform
 	-ms-transform: scale(0);
 	-o-transform: scale(0);
 	transform: scale(0);
+	transform-origin: center center;
 }
 
 .ContentWrapperLi .ContentLi {
@@ -2946,6 +2948,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	
 }
 
 .ContentWrapperLi:hover .ContentLi {
@@ -2956,12 +2959,14 @@ Content Transform
 	-ms-transform: scale(1);
 	-o-transform: scale(1);
 	transform: scale(1);
+	
 }
 
 .ContentWrapperLi .ContentLi .Content {
 	position: absolute;
 	top: 10%;
 	padding: 0 10px;
+	transform-origin: center center 0;
 }
 
 .ContentWrapperLi .ContentLi .Content h2 {
@@ -3019,6 +3024,7 @@ Content Transform
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 	opacity: 1;
+	transform-origin: center center 0;
 }
 
 .ContentWrapperBe:hover img {
@@ -3526,6 +3532,46 @@ Content Transform
 	transition: all 0.3s ease 0s;
 }
 
+
+.ContentWrapperF .ContentF .Content .ReadMore {
+	float: right;
+	margin: 16px 0 0;
+	background: #D1CDC3;
+	background: -moz-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D1CDC3),
+		color-stop(100%, #C9C5BA));
+	background: -webkit-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -o-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -ms-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: linear-gradient(to bottom, #D1CDC3 0%, #C9C5BA 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D1CDC3',
+		endColorstr='#C9C5BA', GradientType=0);
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-ms-border-radius: 2px 2px 2px 2px;
+	-o-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-ms-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-o-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.ContentWrapperF .ContentF .Content .ReadMore a {
+	color: #757167;
+	padding: 6px 16px;
+	display: block;
+	font: normal 12px 'Source Sans Pro';
+}
+
+
+
 .ContentWrapperF:hover .ContentF {
 	opacity: 1;
 	visibility: visible;
@@ -3628,6 +3674,46 @@ Content Transform
 	color: #666666;
 }
 
+.ContentWrapperNe .ContentNe  .Content .ReadMore {
+	float: right;
+	margin: 16px 0 0;
+	background: #D1CDC3;
+	background: -moz-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D1CDC3),
+		color-stop(100%, #C9C5BA));
+	background: -webkit-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -o-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -ms-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: linear-gradient(to bottom, #D1CDC3 0%, #C9C5BA 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D1CDC3',
+		endColorstr='#C9C5BA', GradientType=0);
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-ms-border-radius: 2px 2px 2px 2px;
+	-o-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-ms-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-o-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.ContentWrapperNe .ContentNe .Content .ReadMore a {
+	color: #757167;
+	padding: 6px 16px;
+	display: block;
+	font: normal 12px 'Source Sans Pro';
+}
+
+
+
+/*#################################################################*/
 .ContentWrapperNa img {
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
@@ -3702,6 +3788,48 @@ Content Transform
 	font: normal 12px 'Source Sans Pro';
 	color: #666666;
 }
+
+.ContentWrapperNa .ContentNa  .Content .ReadMore {
+	float: right;
+	margin: 16px 0 0;
+	background: #D1CDC3;
+	background: -moz-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D1CDC3),
+		color-stop(100%, #C9C5BA));
+	background: -webkit-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -o-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -ms-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: linear-gradient(to bottom, #D1CDC3 0%, #C9C5BA 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D1CDC3',
+		endColorstr='#C9C5BA', GradientType=0);
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-ms-border-radius: 2px 2px 2px 2px;
+	-o-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-ms-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-o-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.ContentWrapperNa .ContentNa .Content .ReadMore a {
+	color: #757167;
+	padding: 6px 16px;
+	display: block;
+	font: normal 12px 'Source Sans Pro';
+}
+
+
+
+
+/*#########################################################################*/
 
 .ContentWrapperMg img {
 	-webkit-transition: all 0.3s ease 0s;
@@ -3778,6 +3906,48 @@ Content Transform
 	color: #666666;
 }
 
+
+.ContentWrapperMg .ContentMg  .Content .ReadMore {
+	float: right;
+	margin: 16px 0 0;
+	background: #D1CDC3;
+	background: -moz-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D1CDC3),
+		color-stop(100%, #C9C5BA));
+	background: -webkit-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -o-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: -ms-linear-gradient(top, #D1CDC3 0%, #C9C5BA 100%);
+	background: linear-gradient(to bottom, #D1CDC3 0%, #C9C5BA 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D1CDC3',
+		endColorstr='#C9C5BA', GradientType=0);
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-ms-border-radius: 2px 2px 2px 2px;
+	-o-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-ms-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	-o-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 1px 1px 0
+		rgba(0, 0, 0, 0.11), 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.ContentWrapperMg .ContentMg .Content .ReadMore a {
+	color: #757167;
+	padding: 6px 16px;
+	display: block;
+	font: normal 12px 'Source Sans Pro';
+}
+
+
+
+
+/*##############################################################*/
 .ContentWrapperAl .ContentAl {
 	position: absolute;
 	background: #ffffff;
@@ -3798,6 +3968,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	transform-origin: center center;
 }
 
 .ContentWrapperAl:hover .ContentAl {
@@ -3884,6 +4055,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	transform-origin: center center;
 }
 
 .ContentWrapperSi:hover .ContentSi {
@@ -3970,6 +4142,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	transform-origin: center center;
 }
 
 .ContentWrapperP:hover .ContentP {
@@ -4056,6 +4229,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	transform-origin: center center;
 }
 
 .ContentWrapperS:hover .ContentS {
@@ -5145,6 +5319,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	transform-origin: center center;
 }
 
 .ContentWrapperCu:hover img {
@@ -5153,6 +5328,7 @@ Content Transform
 	-ms-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
+	transform-origin: center center;
 }
 
 .ContentWrapperCu .ContentCu {
@@ -5180,6 +5356,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	transform-origin: center center;
 }
 
 .ContentWrapperCu:hover .ContentCu {
@@ -5262,6 +5439,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	transform-origin: center center;
 }
 
 .ContentWrapperZn:hover img {
@@ -5270,6 +5448,7 @@ Content Transform
 	-ms-transform: rotateX(180deg);
 	-o-transform: rotateX(180deg);
 	transform: rotateX(180deg);
+	transform-origin: center center;
 }
 
 .ContentWrapperZn .ContentZn {
@@ -5297,6 +5476,7 @@ Content Transform
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	transform-origin: center center;
 }
 
 .ContentWrapperZn:hover .ContentZn {
