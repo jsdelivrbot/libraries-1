@@ -1,30 +1,4 @@
-/**
- * styling for DIVAS slider - skin dark focus
- * @author Federica Sibella - Michela Chiucini
- * @date 2014/08/01
- * @version 0.1
- * 
- 1. RESET styles for Divas Slider
- 2. SPINNER styles
- 3. MANDATORY Divas Styles
- 4. DEFAULT slider settings = SPECIFIC styles for demo
- 5. GENERAL media queries
- */
-/************************************************************************
- * 1. RESET styles for Divas Slider
- *************************************************************************/
- 
-*,
-*:before,
-*:after {  -moz-box-sizing: border-box; -webkit-box-sizing: border-box;  box-sizing: border-box; }
-body { background: none repeat scroll 0 0 #fff; color: #313131;  font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif; font-size: 62.5%; line-height: 1.4; min-width: 20em;  position: relative; width: 100%; margin: 0;}
-header, 
-section, 
-footer { position: relative; width: 100%; background: rgba(0, 0, 0, 0);  padding-top: 0;  height: auto; }
-ul, 
-ol { list-style: none outside none; }
-.esc { position: relative;	width: 100%; height: 1px; clear: both; }
-.clearfix:after {  content: "";  display: table;  clear: both; }
+
 
 /************************************************************************
  * 2. SPINNER styles
