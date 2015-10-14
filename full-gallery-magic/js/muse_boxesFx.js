@@ -66,11 +66,12 @@
 		this.isAnimating = false;
 		// the panels
 		this.panels = [].slice.call( this.el.querySelectorAll( '.panel' ) );
-		// total number of panels (4 for this demo)
+ 		// total number of panels (4 for this demo)
 		//this.panelsCount = this.panels.length;
-		this.panelsCount = 4;
-		// current panel´s index
-		this.current = 0;
+		this.slidesCount = this.panels.length;
+ 		this.panelsCount = 4;
+ 		// current panel´s index
+ 		this.current = 0;
 		classie.add( this.panels[0], 'current' );
 		// replace image with 4 divs, each including the image
 		var self = this;
@@ -154,14 +155,16 @@
 		if( this.isAnimating ) return false;
 		this.isAnimating = true;
 
-		var self = this, currentPanel = this.panels[ this.current ];
-
-		if( dir === 'next' ) {
-			this.current = this.current < 7 - 1 ? this.current + 1 : 0;			
-		}
-		else {
-			this.current = this.current > 0 ? this.current - 1 : 7 - 1;
-		}
+		 		var self = this, currentPanel = this.panels[ this.current ];
+ 
+ 		if( dir === 'next' ) {
+//			this.current = this.current < this.panelsCount - 1 ? this.current + 1 : 0;			
+			this.current = this.current < this.slidesCount - 1 ? this.current + 1 : 0;			
+ 		}
+ 		else {
+//			this.current = this.current > 0 ? this.current - 1 : this.panelsCount - 1;
+			this.current = this.current > 0 ? this.current - 1 : this.slidesCount - 1;
+ 		}
 
 		// next panel to be shown
 		var nextPanel = this.panels[ this.current ];
