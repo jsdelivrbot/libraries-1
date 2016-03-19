@@ -1,0 +1,9 @@
+{
+    "name" : "SB Welcome Email Editor",
+    "version" : "4.8.0",
+    "author" : "Sean Barton",
+    "download_url" : "https://cdn.rawgit.com/baronenicola/libraries/master/update-wp/welcome-email-editor/welcome-email-editor.zip",
+    "sections" : {
+        "description" : "<h1>Prova Plugin</h1>"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name" : "MusexPress Admin Theme",
+    "version" : "1.0.0",
+    "author" : "Musegain",
+    "download_url" : "https://cdn.rawgit.com/baronenicola/libraries/master/update-wp/musexAdminTheme/musexAdminTheme.zip",
+    "sections" : {
+        "description" : "<h1>Prova Plugin</h1>"
+    }
+}

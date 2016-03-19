@@ -1,0 +1,9 @@
+{
+    "name" : "Adminimize",
+    "version" : "1.9.2",
+    "author" : "Frank Bültge",
+    "download_url" : "https://cdn.rawgit.com/baronenicola/libraries/master/update-wp/adminimize/adminimize.zip",
+    "sections" : {
+        "description" : "<h1>Prova Plugin</h1>"
+    }
+}

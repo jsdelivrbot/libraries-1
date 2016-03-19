@@ -1,0 +1,9 @@
+{
+    "name" : "MusexPress Blog",
+    "version" : "1.0.0",
+    "author" : "Musegain",
+    "download_url" : "https://cdn.rawgit.com/baronenicola/libraries/master/update-wp/musexPressBlog/musexPressBlog.zip",
+    "sections" : {
+        "description" : "<h1>Prova Plugin</h1>"
+    }
+}

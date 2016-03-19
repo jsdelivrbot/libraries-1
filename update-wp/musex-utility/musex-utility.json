@@ -1,8 +1,8 @@
 {
     "name" : "MusexPress Utility",
-    "version" : "2.0",
+    "version" : "1.0.0",
     "author" : "MuseGain.com",
-    "download_url" : "https://cdn.rawgit.com/baronenicola/libraries/master/update-wp/musex-utilitys-1.2.0.zip",
+    "download_url" : "https://cdn.rawgit.com/baronenicola/libraries/master/update-wp/musex-utilitys-1.0.0.zip",
     "sections" : {
         "description" : "<h1>Prova Plugin</h1>"
     }
