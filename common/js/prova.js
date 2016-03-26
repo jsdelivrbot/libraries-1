@@ -1,3 +1,0 @@
-	
-	
-	var varSecurityWidget =false;
