@@ -1,0 +1,8 @@
+diff a/animateButtons/css/animate.css b/animateButtons/css/animate.css	(rejected hunks)
+@@ -10,4 +10,4 @@
+ 		z-index: 1;
+ 		-webkit-backface-visibility: hidden;
+ 		-moz-osx-font-smoothing: grayscale;						
+-	}
+\ No newline at end of file
++	}
