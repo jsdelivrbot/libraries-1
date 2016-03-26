@@ -1,0 +1,13 @@
+
+
+	musewidgets_button{
+		min-width: 80px;
+		float: left;
+		cursor: pointer;
+		display: block;
+		vertical-align: middle;
+		position: relative;
+		z-index: 1;
+		-webkit-backface-visibility: hidden;
+		-moz-osx-font-smoothing: grayscale;						
+	}
