@@ -2,10 +2,10 @@
 @font-face {
 	font-family: 'icomoon';
 	src: url('https://cdn.rawgit.com/baronenicola/libraries/master/megamenu/fonts/icon.eot');
-	src: url('https://cdn.rawgit.com/baronenicola/libraries/master/megamenu/fonts/icon.eot?#iefix') format('embedded-opentype'),
+	src: url('https://cdn.jsdelivr.net/gh/baronenicola/libraries/megamenu/fonts/icon.eot?#iefix') format('embedded-opentype'),
 	url('https://cdn.rawgit.com/baronenicola/libraries/master/megamenu/fonts/icon.woff') format('woff'),
 	url('https://cdn.rawgit.com/baronenicola/libraries/master/megamenu/fonts/icon.ttf') format('truetype'),
-	url('https://cdn.rawgit.com/baronenicola/libraries/master/megamenu/fonts/icon.svg#icon') format('svg');
+	url('https://cdn.jsdelivr.net/gh/baronenicola/libraries/megamenu/fonts/icon.svg#icon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
